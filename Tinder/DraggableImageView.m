@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *profileImageView;
 @property (strong, nonatomic) IBOutlet UIView *contentView;
 @property (nonatomic, assign) CGPoint imageOriginalCenter;
+@property (nonatomic, assign) CGPoint imageOriginalAngle;
 
 @end
 
@@ -66,8 +67,21 @@
     } else if (sender.state == UIGestureRecognizerStateChanged) {
         CGPoint translation = [sender translationInView:self.contentView];
         
-        imageView.center = CGPointMake(self.imageOriginalCenter.x + translation.x,
-                                       self.imageOriginalCenter.y);
+        CGFloat width = self.profileImageView.frame.size.width / 2;
+        
+        CGFloat angle = translation.x / width * 45;
+        imageView.center = CGPointMake(self.imageOriginalCenter.x + translation.x, self.imageOriginalCenter.y);
+        
+        imageView.transform = CGAffineTransformRotate(CGAffineTransformIdentity, angle * M_PI / 180.0);
+        
+    } else if (sender.state == UIGestureRecognizerStateEnded) {
+        CGPoint translation = [sender translationInView:self.contentView];
+        if (translation.x > 80) {
+            
+        } else {
+            imageView.center = self.imageOriginalCenter;
+            imageView.transform = CGAffineTransformIdentity;
+        }
     }
 
 }
