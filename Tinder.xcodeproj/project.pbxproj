@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4A5E832B1BFE87D10061F736 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E832A1BFE87D10061F736 /* main.m */; };
 		4A5E832E1BFE87D10061F736 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E832D1BFE87D10061F736 /* AppDelegate.m */; };
-		4A5E83311BFE87D10061F736 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E83301BFE87D10061F736 /* ViewController.m */; };
+		4A5E83311BFE87D10061F736 /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E83301BFE87D10061F736 /* CardsViewController.m */; };
 		4A5E83341BFE87D10061F736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E83321BFE87D10061F736 /* Main.storyboard */; };
 		4A5E83361BFE87D10061F736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E83351BFE87D10061F736 /* Assets.xcassets */; };
 		4A5E83391BFE87D10061F736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E83371BFE87D10061F736 /* LaunchScreen.storyboard */; };
@@ -20,8 +20,8 @@
 		4A5E832A1BFE87D10061F736 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A5E832C1BFE87D10061F736 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A5E832D1BFE87D10061F736 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A5E832F1BFE87D10061F736 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A5E83301BFE87D10061F736 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A5E832F1BFE87D10061F736 /* CardsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		4A5E83301BFE87D10061F736 /* CardsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
 		4A5E83331BFE87D10061F736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A5E83351BFE87D10061F736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A5E83381BFE87D10061F736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 			children = (
 				4A5E832C1BFE87D10061F736 /* AppDelegate.h */,
 				4A5E832D1BFE87D10061F736 /* AppDelegate.m */,
-				4A5E832F1BFE87D10061F736 /* ViewController.h */,
-				4A5E83301BFE87D10061F736 /* ViewController.m */,
+				4A5E832F1BFE87D10061F736 /* CardsViewController.h */,
+				4A5E83301BFE87D10061F736 /* CardsViewController.m */,
 				4A5E83321BFE87D10061F736 /* Main.storyboard */,
 				4A5E83351BFE87D10061F736 /* Assets.xcassets */,
 				4A5E83371BFE87D10061F736 /* LaunchScreen.storyboard */,
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A5E83311BFE87D10061F736 /* ViewController.m in Sources */,
+				4A5E83311BFE87D10061F736 /* CardsViewController.m in Sources */,
 				4A5E832E1BFE87D10061F736 /* AppDelegate.m in Sources */,
 				4A5E832B1BFE87D10061F736 /* main.m in Sources */,
 			);
